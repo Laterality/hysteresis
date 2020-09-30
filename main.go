@@ -22,7 +22,7 @@ func main() {
 
 	PrintTitle()
 	log.Printf("Enabled profile: '%s'\n", *profile)
-	// flyway options
+
 	argLen := len(os.Args)
 	flywayCommand := os.Args[argLen-1]
 
