@@ -40,13 +40,13 @@ So, structure of working directory will look like following:
 The profile is `local` by default. So if you want to perform migration on you local DB, just run:
 
 ```bash
-./flyway migrate
+./hyst migrate
 ```
 
 When if you perform migration with `develop` configuration:
 
 ```bash
-./flyway -p develop migrate
+./hyst -p develop migrate
 ```
 
 Then, Command above uses `./conf/develop.conf` file for running flyway.
