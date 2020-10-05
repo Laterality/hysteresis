@@ -1,4 +1,4 @@
-module github.com/laterality/spring-guestbook/db-migration
+module github.com/laterality/hysteresis
 
 go 1.13
 

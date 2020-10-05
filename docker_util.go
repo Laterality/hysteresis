@@ -125,5 +125,4 @@ func AttachContainer(ctx context.Context, clnt *client.Client, cid string) {
 	CheckError(err)
 
 	go io.Copy(os.Stdout, resp.Reader)
-	go io.Copy(os.Stderr, resp.Reader)
 }
